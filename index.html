@@ -273,8 +273,8 @@
         function containsBlockedContent(text) {
             const lower = text.toLowerCase();
             for (let word of blocked_words) {
-                if (lower.includes(word.toLowerCase())) {
-                    return true;
+                const regex = new RegExp(`\\b${word.toLowerCase()}\\b`, 'i');
+                if (regex.test(lower)) {
                 }
             }
             return false;
