@@ -296,8 +296,11 @@
                 }));
                 
                 similarities.sort((a, b) => b.score - a.score);
-                
-                return similarities.slice(0, 10).map(item => embeddings_data.expense_types[item.index]);
+
+                return similarities
+                    .filter(item => item.score > 0.34)
+                    .slice(0, 10)
+                    .map(item => embeddings_data.expense_types[item.index]);
             } catch (error) {
                 console.error('Match error:', error);
                 return [];
