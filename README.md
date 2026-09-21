@@ -13,4 +13,8 @@ index.html is the code that puts it all together
 Unfortunately there isn't an easy way to tell a computer what is suggestive, inappropriate, derogatory, or otherwise offensive without making an explicit list. The list contains those words. If anyone enters something that is either in that list, or similar to what's in the list, an error message will appear. I did this so that people don't enter inappropriate things, the LLM forces a response, and it gives the wrong impression we're saying the innaporpriate thing is reimbursable. Don't blame me, blame the weirdos who go online.
 
 Final app found at:
-https://federal-programs-ide.github.io/Idaho_ESSA_Allowability_Guidance_Tool/
+https://federal-programs-ide.github.io/Idaho_Grant_Information_Guidance_Index/ 
+
+or
+
+https://tinyurl.com/Idaho-gigi 
